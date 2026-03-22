@@ -1,0 +1,5 @@
+﻿  Building 'KrEverything' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  KrEverything.c
+  KrEverything.vcxproj -> C:\code\KrEverything\build\Debug\KrEverything.sys
+  DrvCat task was skipped as there was no catalog file to process
+  
