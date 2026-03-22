@@ -1,0 +1,6 @@
+#pragma once
+
+#define IDD_KREVCLIENT_DIALOG 101
+#define IDC_STATIC_TITLE 1001
+#define IDC_BUTTON_QUERY 1002
+#define IDC_EDIT_OUTPUT 1003

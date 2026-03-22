@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5B5D1A80-8436-4C5E-B93A-5225F3FE9A30}</UniqueIdentifier>
+      <Extensions>c;cpp;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Driver Files">
+      <UniqueIdentifier>{2A6E9C89-10F2-4A21-AF2E-8CF0A899D43B}</UniqueIdentifier>
+      <Extensions>inf;inx</Extensions>
+    </Filter>
+    <Filter Include="Docs">
+      <UniqueIdentifier>{7AB1E503-7F48-4666-9306-7DF4D2A3773E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KrEv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\shared\KrEvShared.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="KrEv.inf">
+      <Filter>Driver Files</Filter>
+    </None>
+    <None Include="README.md">
+      <Filter>Docs</Filter>
+    </None>
+  </ItemGroup>
+</Project>

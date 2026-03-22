@@ -1,0 +1,45 @@
+; Minimal sample INF for the KrEv kernel driver.
+
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = System
+ClassGuid   = {4d36e97d-e325-11ce-bfc1-08002be10318}
+Provider    = %ProviderName%
+CatalogFile = KrEv.cat
+DriverVer   = 03/10/2026,1.0.0.0
+
+[DestinationDirs]
+DefaultDestDir = 12
+
+[SourceDisksNames]
+1 = %DiskName%,,,
+
+[SourceDisksFiles]
+KrEv.sys = 1
+
+[Manufacturer]
+%ProviderName% = Standard,NTamd64
+
+[Standard.NTamd64]
+%DeviceDesc% = Install, Root\KrEv
+
+[Install]
+CopyFiles = DriverCopyFiles
+
+[DriverCopyFiles]
+KrEv.sys
+
+[Install.Services]
+AddService = KrEv,0x00000002,ServiceInstall
+
+[ServiceInstall]
+DisplayName    = %DeviceDesc%
+ServiceType    = 1
+StartType      = 3
+ErrorControl   = 1
+ServiceBinary  = %12%\KrEv.sys
+
+[Strings]
+ProviderName = "KrEv"
+DiskName     = "KrEv Install Disk"
+DeviceDesc   = "KrEv Sample Driver"

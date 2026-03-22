@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\code\\KrEv\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A4C76D1E-1F18-4A51-94D8-2D2B6A5C6C42}|KrEv\\KrEv.vcxproj|C:\\code\\KrEv\\KrEv\\KrEv.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A4C76D1E-1F18-4A51-94D8-2D2B6A5C6C42}|KrEv\\KrEv.vcxproj|solutionrelative:KrEv\\KrEv.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KrEv.c",
+              "DocumentMoniker": "C:\\code\\KrEv\\KrEv\\KrEv.c",
+              "RelativeDocumentMoniker": "KrEv\\KrEv.c",
+              "ToolTip": "C:\\code\\KrEv\\KrEv\\KrEv.c",
+              "RelativeToolTip": "KrEv\\KrEv.c",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAH4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-03-09T22:49:19.013Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
