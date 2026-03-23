@@ -1,3 +1,0 @@
-﻿  Building 'KrEv' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
-C:\Program Files (x86)\Windows Kits\10\build\WindowsDriver.common.targets(1806,9): error MSB4064: 从路径 C:\Program Files (x86)\Windows Kits\10\build\bin\Microsoft.DriverKit.Build.Tasks.16.0.dll 处的程序集 Microsoft.DriverKit.Build.Tasks, Version=10.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 加载的“Telemetry”任务不支持“DrvAttributes”参数。请验证任务上是否存在该参数、<UsingTask> 是否指向正确的程序集，以及它是否是可设置的公共实例属性。
-C:\Program Files (x86)\Windows Kits\10\build\WindowsDriver.common.targets(1784,5): error MSB4063: 未能使用“Telemetry”任务的输入参数初始化该任务。
